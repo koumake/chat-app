@@ -16,3 +16,63 @@
  　* {
     box-sizing: border-box;
   }
+  .contents {
+    background-color: red;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .top-content {
+    background-color: olive;
+    height: 100vh;
+    width: 300px;
+  }
+  .middle-content {
+    background-color: purple;
+    height: 100vh;
+    width: 300px;
+  }
+  .bottom-content {
+    background-color: maroon;
+    height: 100vh;
+    width: 300px;
+  }
+  header {
+    background-color: lightyellow;
+    padding: 20px;
+  }
+  .logo {
+    height: 150px;
+    font-size: 100px;
+  }
+  .list {
+    height: 80px;
+    width: 20vw;
+    font-size: 50px;
+    border: 1px solid black;
+    justify-content: space-between;
+  }
+  .reserve {
+    background-color: black;
+    color: white;
+  }
+  def thank_you(hoge)
+  puts "ありがとう#{hoge}さん"
+end
+
+name = "鈴木"
+thank_you(name)
+class Student
+  【def initialize(family_name, first_name)
+      @family_name = family_name
+      @first_name = first_name】
+     
+
+  def introduce
+    puts "私の名前は「#{@family_name + " " + @first_name}」です。"
+  end
+end
+
+student = Student.【new】("山田", "太郎")
+student.introduce
