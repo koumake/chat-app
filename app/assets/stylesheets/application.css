@@ -17,8 +17,8 @@
     box-sizing: border-box;
   }
   .contents {
-    background-color: lightgray;
-    height: 100vh;
+    background-color: red;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
